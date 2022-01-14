@@ -5,9 +5,26 @@
 }
  
 .logo{
-    display: inline-block;
+    display: inline-block;    
 }
 
 .title{
-    display: inline-block;
+    display: inline-block; 
+}
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: rgb(246, 248, 249);
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+.task{
+    margin: 1em;
 }
