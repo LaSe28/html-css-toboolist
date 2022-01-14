@@ -7,10 +7,12 @@
  
 .logo{
     display: inline-block;    
+    vertical-align: middle;
 }
 
 .title{
-    display: inline-block; 
+    display: inline-block;
+    vertical-align: middle; 
 }
 
 header{
@@ -51,6 +53,7 @@ body{
     background-color: white;
 
 }
+
 .task{
     margin: 1em;
 }
@@ -58,6 +61,12 @@ body{
 h2{
     margin-top: 1em;
     margin-left: 0.5em;
+    font-size: 20px;
+}
+
+section div span{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .tasks{
@@ -84,7 +93,7 @@ h2{
 }
 
 .post-tag{
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: white;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -92,4 +101,20 @@ h2{
 
 .blue{
     background-color: rgb(91, 171, 235);
+}
+
+.pink {
+    background-color: violet;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.green {
+    background-color: rgb(123, 190, 170)
+}
+
+.lightgreen{
+    background-color: rgb(181, 200, 73)
 }
