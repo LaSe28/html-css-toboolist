@@ -99,6 +99,9 @@ section div span{
     padding: 0.5em;
 }
 
+.orange{
+    background-color: orange;
+}
 .blue{
     background-color: rgb(91, 171, 235);
 }
